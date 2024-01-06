@@ -1,7 +1,11 @@
+import Comp from "./comp"
+
 function App() {
   return (
     <>
-      <h1>Hello vite react</h1>
+      <Comp />
+      <h1>Dj Sharanam bhaje bhaje</h1>
+      <p>This is new para</p>
     </>
   )
 }

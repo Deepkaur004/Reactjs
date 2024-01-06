@@ -1,7 +1,13 @@
+import Comp from "./comp";
+
 function App() {
   return (
-    <h1>Hello react</h1>
-  );
+    <>
+       <Comp />
+       <h1>Hello React</h1>
+    </>
+   
+  )
 }
 
 export default App;
