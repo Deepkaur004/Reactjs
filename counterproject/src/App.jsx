@@ -8,13 +8,15 @@ function App() {
   let [counter, setCounter] = useState(5)
 
   function addValue() {
-    counter = counter + 1
-    setCounter(counter);
+    setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1);
   }
 
   function removeValue() {
     counter = counter - 1
-    if(counter < 0 ){
+    if (counter <= 0) {
       counter = 0;
       setCounter(0);
     }
